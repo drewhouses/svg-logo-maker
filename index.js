@@ -28,7 +28,7 @@ function init() {
         type: "list",
         message: questions[2],
         name: "shape",
-        choice: ["Circle", "Triangle", "Square"],
+        choices: ["Circle", "Triangle", "Square"],
       },
       {
         type: "input",
