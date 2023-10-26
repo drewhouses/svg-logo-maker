@@ -37,7 +37,14 @@ function init() {
       },
     ])
     .then((response) => {
-      //
+      switch (response.shape) {
+        case "circle":
+          break;
+        case "square":
+          break;
+        case "triangle":
+          break;
+      }
     });
 }
 
